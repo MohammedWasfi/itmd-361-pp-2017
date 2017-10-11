@@ -28,7 +28,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ==== LAYOUT STYLES ==== */
 #content {
-
+  
 }
 
 #three,
@@ -38,14 +38,17 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 #three {
+  order: 3;
 
 }
 
 #two {
+  order: 2;
 
 }
 
 #one {
+  order:1;
 
 }
 
