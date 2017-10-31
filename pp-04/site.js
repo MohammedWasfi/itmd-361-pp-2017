@@ -54,3 +54,8 @@ function addTwo(x) {
 
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above
+
+// x is a local variable to this function and not global
+// therefore, when the console.log(addTwo(4)); is called the result will be 6
+// If only x is called then it will be a global variable and the result will be 5
+// since it's declared outside of the function
